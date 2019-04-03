@@ -1,0 +1,61 @@
+a.link:active {
+	font-weight: bold;
+}
+
+* {
+	box-sizing: border-box;
+}
+
+.container {
+	margin: 0 auto;
+	max-width: 80%;
+}
+
+header {
+	background-color: #c5c2c2;
+	text-align: center;
+	height: 50px;
+}
+header > p {
+	padding-top: 12px;
+}
+
+nav {
+ 	background-color: #a29f9f;
+ 	text-align: center;
+ }
+
+nav a {
+	background-color: grey;
+	display: inline-block;
+	width: 150px;
+}
+
+main {
+ 	background-color: #dcc4c4;
+ 	text-align: center;
+ }
+footer {
+	align-content: center;
+	background-color: grey;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	max-width: 80%;
+	text-align: center;
+}
+
+footer > p {
+	padding-top: 7px;
+}
+
+section {
+	margin: 25px;
+	max-width: 600px;
+	display: inline-block;
+	background-color: #bfacac; 
+	padding: 15px;
+}
+a:active {
+	font-weight: bold;
+}
